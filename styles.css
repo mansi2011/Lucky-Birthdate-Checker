@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+.body{
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.caption{
+
+    text-align: center;
+    padding: 1rem 1rem;
+    background-color: bisque;
+}
+
+.image-container{
+    float: left;
+    margin-right: 0.2rem;
+}
+
+
+.hero-image{
+    height: 18rem; 
+    width: 30rem;
+    padding: 2rem 6rem
+}
+
+.container{
+    padding: 3rem 2rem;
+    background-color: burlywood;
+
+}
+
+.sub-heading{
+    text-align: center;
+}
+
+.label1{
+    font-size: large;
+    text-align: center;
+
+}
+
+#input-date{
+    padding: 0.3rem 1.9rem;
+    border-color:firebrick;
+    margin-left: 11rem;
+    cursor: pointer;
+    
+    
+}
+
+.label2{
+    font-size: large;
+    text-align: center;
+}
+
+#input-number{
+    padding: 0.3rem 1rem;
+    border-color:firebrick;
+    margin-left: 11rem;
+    cursor: pointer;
+
+}
+
+#btn-check{
+    padding: 0.5rem 1rem;
+    background-color: coral;
+    color: white;
+    border-radius: 0.5rem;
+    border-color:firebrick;
+    margin-left: 14rem;
+    cursor: pointer;
+}
+
+
+footer {
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: auto;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-around;
+    max-width: 90%;
+    background-color: bisque;
+}
+
+.footer-header{
+    font-weight: bold;
+    color: coral;
+   
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .link{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.footer .list-non-bullet li{
+    display: inline;
+    padding: 0rem 0.2rem
+}
+
+.link-icon{
+    padding: 0rem 0.5rem;
+}
+
+
+
