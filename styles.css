@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
 
-.body{
+body{
     font-family: 'Noto Sans TC', sans-serif;
-    padding: 0rem;
+    font-size: 62.5%;
     margin: 0rem;
+    overflow-x: hidden;
+   
 }
+
 
 .caption{
 
@@ -33,6 +36,7 @@
 
 .sub-heading{
     text-align: center;
+    font-size: large;
 }
 
 .label1{
@@ -74,21 +78,11 @@
 }
 
 
-footer {
-    align-items: center;
-    padding: 1rem 2rem;
-    margin-bottom: auto;
-    display: flex;
-    border-radius: 1rem;
-    justify-content: space-around;
-    max-width: 90%;
-    background-color: bisque;
-}
-
-.footer-header{
-    font-weight: bold;
-    color: coral;
-   
+.footer{
+    padding:2rem 0rem;
+    background-color:bisque;
+    text-align: center;
+    border-radius: 1.2rem;
 }
 
 .footer ul{
@@ -96,19 +90,102 @@ footer {
 }
 
 .footer .link{
-    color: black;
+    color: white;
     text-decoration: none;
-    
+    color: black;
 }
 
-.footer .list-non-bullet li{
+.footer ul li{
     display: inline;
-    padding: 0rem 0.2rem
+    text-decoration: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+.footer-header{
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
 }
 
 .link-icon{
     padding: 0rem 0.5rem;
 }
 
+.container .notice{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: .8rem;    
+}
+
+.notice{
+    display: block;
+}
+
+.cross{
+    color: brown;
+    cursor: pointer;
+}
+
+.sad-div{
+    display: none;
+    }
+
+.sad-div p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(49, 24, 4);
+}
+
+.sad-div img{
+    margin-left: 30rem ;
+    padding-bottom: 2rem;
+}
+
+.happy-div{
+    display: none;
+}
+
+.happy-div p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(49, 24, 4);
+}
+
+.happy-div img{
+    margin-left: 32rem ;
+    padding-bottom: 2rem;
+}
+
+
+@media(max-width:768px) {
+    body{
+        font-size: 45%;
+    }
+
+    #input-date{
+        margin-left: 13rem;         
+    }
+
+    #input-number{   
+        margin-left: 13rem;
+    }
+    #btn-check{
+        margin-left: 17rem;
+    }
+    .caption{
+        text-align: center;
+    }
+    .sad-div img{
+        margin-left: 12rem;
+        
+    }
+    .happy-div img{
+        margin-left: 12rem;
+        
+    }
+}
 
 
